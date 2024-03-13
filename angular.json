@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "company-angular": {
+    "Angularjobsearch": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/company-angular",
+            "outputPath": "dist/Angularjobsearch",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "company-angular:build:production"
+              "buildTarget": "Angularjobsearch:build:production"
             },
             "development": {
-              "buildTarget": "company-angular:build:development"
+              "buildTarget": "Angularjobsearch:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "company-angular:build"
+            "buildTarget": "Angularjobsearch:build"
           }
         },
         "test": {
