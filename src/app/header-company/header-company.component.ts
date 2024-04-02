@@ -25,6 +25,7 @@ export class HeaderCompanyComponent implements OnInit{
   deleteCompany(id: number){
     console.log("inside delete");
     this.companyService.deleteCompany(id).subscribe(data => {
+      console.log("data is"+data);
       this.getCompany();
     })
   }
