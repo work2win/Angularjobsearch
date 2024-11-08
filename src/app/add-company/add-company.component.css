@@ -1,55 +1,15 @@
 .main{
-     /* Sticky & blur */
-     position: sticky;
-     margin-top: 10px;
+    
+     margin-top: 0px;
      margin-bottom: 0;
      top: 0;
-     backdrop-filter: blur(10px);
      
-     /* Layout */
      display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 12px 50px;
+     
      background-color: rgb(15, 88, 170);
      border-bottom: 1px solid rgba(238, 238, 238, 0.3);
      font-family: 'Raleway', sans-serif;
      font-size: 16px;
      color: white;
-     height: 100px;
+     height: 40px;
 }
-
-input{
-
-     border:none;
-     width: 200px;     
-     color:white;
-     background:white;      
-     font-size:15px;
-     margin:10px;
-     border-radius: 6px;
-}
-
-select{
-
-     border:none;
-     width: 100px;     
-     color:white;
-     background:white;      
-     font-size:15px;
-     margin:10px;
-     border-radius: 6px;
-}
-
-
-button{
-     border:none;
-     width: 80px;
-     
-     color:whiteblack;
-     background:white;
-      
-     font-size:15px;
-     margin:30px;
-     border-radius: 6px;
-   }

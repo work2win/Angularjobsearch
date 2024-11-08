@@ -6,8 +6,8 @@
 <table class="table table-striped">
     <thead>
        <tr>
-           
-            <th>NAME</th>
+            <th>COMPANY ID</th>
+           <th>NAME</th>
            <th>DATE & TIME</th>
            <th>STATUS</th>
            <th>ACTION</th>            
@@ -15,7 +15,7 @@
     </thead>
     <tbody>
         <tr *ngFor = "let comp of company">
-            
+            <td>{{ comp.id }}</td>
             <td>{{ comp.name }}</td>
             <td>{{ comp.date }}</td>
             <td>{{ comp.status }}</td>
